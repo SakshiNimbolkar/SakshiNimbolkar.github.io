@@ -36,7 +36,9 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding-top: 0.3rem;
-    padding-bottom: 0.8rem;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 header nav ul {
@@ -53,6 +55,19 @@ header nav ul a {
 
 }
 
+header nav ul a:hover {
+    color: #7700ff;
+    text-decoration: underline;
+}
+
 header .nav-logo span {
     color: #7700ff
+}
+
+@media screen and (max-width:768px) {
+    header nav ul {
+        dispaly: none;
+    }
+
+
 }
