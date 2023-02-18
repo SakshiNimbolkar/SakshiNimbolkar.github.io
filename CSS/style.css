@@ -71,3 +71,39 @@ header .nav-logo span {
         display: none;
     }
 }
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 100%;
+}
+
+.hero h1 span {
+    display: block;
+    color: #7700ff;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: #7700ff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: name;
+    border-radius: 50px;
+    font-weight: 500;
+}
