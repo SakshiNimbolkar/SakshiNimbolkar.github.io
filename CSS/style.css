@@ -36,8 +36,10 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+
 }
 
 header nav ul {
