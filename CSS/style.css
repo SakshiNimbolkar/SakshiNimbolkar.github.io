@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -20,7 +20,7 @@ img {
     width: 100%;
 }
 
-/* global classes */
+/*global classes */
 .container {
     max-width: 1200px;
     margin: auto;
@@ -28,18 +28,33 @@ img {
     padding-right: 20px;
 }
 
-/* styling navigation */
-header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: purple;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    width: fit-content;
+
 }
 
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+/*styling navigation */
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid black;
 
 }
 
@@ -52,19 +67,17 @@ header nav ul {
 }
 
 header nav ul a {
-    color: black;
+    color: #1b1b1b;
 }
 
 header nav ul a:hover {
-    color: brown;
+    color: purple;
     text-decoration: underline;
 }
 
 header .nav-logo span {
-    color: blueviolet;
+    color: purple;
 }
-
-
 
 @media screen and (max-width:768px) {
     header nav ul {
@@ -76,16 +89,17 @@ header .nav-logo span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 100vh;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font: size 3rem;
     line-height: 100%;
 }
 
 .hero h1 span {
     display: block;
-    color: #7700ff;
+    color: blueviolet;
 }
 
 .hero h2 {
@@ -94,25 +108,20 @@ header .nav-logo span {
     font-weight: 500;
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    width: fit-content;
-    background: #7700ff;
-    color: #fff;
-    padding: 0.8rem 1.5rem;
-    border: name;
-    border-radius: 50px;
-    font-weight: 500;
-}
-
 .hero .btn-wrapper {
-    dispaly: flex;
+    display: flex;
     gap: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.hero .icon-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+
 }
 
 .hero .icon-wrapper a {
@@ -121,19 +130,17 @@ header .nav-logo span {
     height: 40px;
     display: grid;
     place-content: center;
-    background: #1b1b1b;
+    background: black;
     color: white;
     border-radius: 100%;
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .hero .icon-wrapper a:hover {
-    background: #7700ff;
+    background: purple;
 }
 
-.hero img {}
-
-.btn.btn-secondary {
-    background: #7700ff;
+.hero.btn-secondary {
+    background: purple;
     color: black;
 }
