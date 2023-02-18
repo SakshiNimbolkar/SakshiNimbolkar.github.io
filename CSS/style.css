@@ -28,6 +28,7 @@ img {
 
 header {
     border-bottom: black;
+    background: white;
 }
 
 header nav {
@@ -42,11 +43,16 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem font-weight:500;
+    gap: 2rem;
+    font-weight: 500;
 
 }
 
-heasder nav ul a {
+header nav ul a {
     color: #1b1b1b;
 
+}
+
+header .nav-logo span {
+    color: #7700ff
 }
