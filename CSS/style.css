@@ -114,3 +114,19 @@ header .nav-logo span {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.hero .icon-wrapper a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+}
+
+.hero .icon-wrapper a:hover {
+    background: #7700ff;
+}
