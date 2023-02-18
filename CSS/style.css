@@ -5,8 +5,7 @@
 }
 
 body {
-    font-family: 'Labrada', serif;
-
+    font-family: 'Rubik', sans-serif;
 }
 
 a {
@@ -21,6 +20,7 @@ img {
     width: 100%;
 }
 
+/* global classes */
 .container {
     max-width: 1200px;
     margin: auto;
@@ -28,17 +28,18 @@ img {
     padding-right: 20px;
 }
 
+/* styling navigation */
 header {
-    border-bottom: 1px solid rdba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
 
 }
 
@@ -48,28 +49,25 @@ header nav ul {
     align-items: center;
     gap: 2rem;
     font-weight: 500;
-
 }
 
 header nav ul a {
-    color: #1b1b1b;
-
+    color: black;
 }
 
-header nav ul a :hover {
+header nav ul a:hover {
     color: brown;
     text-decoration: underline;
-
 }
 
 header .nav-logo span {
-    color: #7700ff
+    color: blueviolet;
 }
+
+
 
 @media screen and (max-width:768px) {
     header nav ul {
-        dispaly: none;
+        display: none;
     }
-
-
 }
