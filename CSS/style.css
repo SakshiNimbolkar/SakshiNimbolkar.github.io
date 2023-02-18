@@ -29,18 +29,15 @@ img {
 }
 
 header {
-    border-bottom: black;
-    background: white;
+    border-bottom: 1px solid rdba(0, 0, 0, 0.2);
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0.3rem;
     gap: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    font-weight: 500;
 }
 
 header nav ul {
@@ -57,9 +54,10 @@ header nav ul a {
 
 }
 
-header nav ul a:hover {
-    color: #7700ff;
+header nav ul a :hover {
+    color: brown;
     text-decoration: underline;
+
 }
 
 header .nav-logo span {
