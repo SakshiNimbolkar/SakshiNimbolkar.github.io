@@ -37,9 +37,9 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-bottom: 1px solid black;
 
 }
 
