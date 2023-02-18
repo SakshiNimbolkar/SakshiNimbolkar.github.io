@@ -130,3 +130,10 @@ header .nav-logo span {
 .hero .icon-wrapper a:hover {
     background: #7700ff;
 }
+
+.hero img {}
+
+.btn.btn-secondary {
+    background: #7700ff;
+    color: black;
+}
