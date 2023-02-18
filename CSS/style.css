@@ -99,11 +99,18 @@ header .nav-logo span {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-
+    width: fit-content;
     background: #7700ff;
     color: #fff;
     padding: 0.8rem 1.5rem;
     border: name;
     border-radius: 50px;
     font-weight: 500;
+}
+
+.hero .btn-wrapper {
+    dispaly: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
